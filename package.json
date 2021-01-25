@@ -1,0 +1,25 @@
+{
+  "name": "contacts-rest-api",
+  "version": "1.0.0",
+  "description": "contact management api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artishk/contacts-rest-api.git"
+  },
+  "author": "arti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artishk/contacts-rest-api/issues"
+  },
+  "homepage": "https://github.com/artishk/contacts-rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  }
+}
