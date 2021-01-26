@@ -1,4 +1,4 @@
-const contactData = require("./contactsData.js");
+const contactData = require('./contactsData.js');
 
 const addNewContact = (newContactObject) => {
   contactData.push(newContactObject);

@@ -1,12 +1,13 @@
-const contactData = require("./contactsData.js");
+const contactData = require('./contactsData.js');
+
 const updateContactByID = (newContactObject, id) => {
-  let contactToUpdate = contactData.splice(
+  const contactToUpdate = contactData.splice(
     contactData.findIndex((contact) => contact.ID === id),
     1,
-    newContactObject
+    newContactObject,
   );
 
-  return "contact details Updated...";
+  return 'contact details Updated...';
 };
 
 module.exports = updateContactByID;
